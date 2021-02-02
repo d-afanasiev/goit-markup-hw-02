@@ -1,0 +1,131 @@
+:root {
+  --color-link: #2196F3;
+  --color-logo: #000000;
+  --color-main: #212121;
+  --color-secondary: #757575;
+  --color-hero: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+/* Color */
+
+.color-logo {
+  color: var(--color-logo);
+}
+
+.color-link, .link-active:hover {
+  color: var(--color-link);
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+}
+
+.color-main {
+  color: var(--color-main);
+}
+
+.color-hero {
+  color: var(--color-hero);
+}
+
+/* Logo */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+/* Nav */
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* Contacts */
+
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+/* Hero */
+
+.hero {
+  background-color: #2F303A;
+}
+
+/* Advantages */
+
+.advantages-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teams-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teams-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: #2F303A;
+}
+
+.address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.address-color {
+  color: rgba(255, 255, 255, 0.6);
+}
