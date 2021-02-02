@@ -6,17 +6,14 @@
   --color-hero: #ffffff;
 }
 
-a {
-  text-decoration: none;
-}
-
-ul {
+.list {
   list-style: none;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+  line-height: 1.2;
+  background-color: var(--color-hero);
 }
 
 /* Color */
@@ -25,7 +22,7 @@ body {
   color: var(--color-logo);
 }
 
-.color-link, .link-active:hover {
+.color-link, .link-active:hover, .link-active:focus {
   color: var(--color-link);
 }
 
@@ -45,9 +42,9 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  text-decoration: none;
 }
 
 /* Nav */
@@ -55,8 +52,9 @@ body {
 .nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 /* Contacts */
@@ -64,8 +62,9 @@ body {
 .contacts-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 /* Hero */
@@ -74,58 +73,70 @@ body {
   background-color: #2F303A;
 }
 
+.hero-text {
+  text-decoration: none;
+}
+
 /* Advantages */
 
 .advantages-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .advantages-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.title {
-  font-weight: bold;
+/* Section title */
+
+.title-section {
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+/* Teams */
+
+.section-teams {
+  background-color: #F5F4FA;
 }
 
 .teams-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .teams-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* Footer */
 
 .footer {
   background-color: #2F303A;
 }
 
 .address {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .address-color {
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
