@@ -4,6 +4,7 @@
   --color-main: #212121;
   --color-secondary: #757575;
   --color-hero: #ffffff;
+  --color-button: #F5F4FA;
 }
 
 .list {
@@ -49,17 +50,7 @@ body {
 
 /* Nav */
 
-.nav-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-/* Contacts */
-
-.contacts-link {
+.nav-link, .contacts-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -87,7 +78,7 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-text {
+.advantages-text, .address {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -129,14 +120,53 @@ body {
   background-color: #2F303A;
 }
 
-.address {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-
 .address-color {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Hidden h2 */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Portfolio */
+
+.list-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list-button:hover, .list-button:focus {
+  cursor: pointer;
+  background-color: var(--color-link);
+  color: var(--color-hero);
+}
+
+.list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
